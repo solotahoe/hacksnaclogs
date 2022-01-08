@@ -1,0 +1,1209 @@
+.app {
+  width: 100%;
+  background: #14192a;
+}
+.coinbase {
+  width: 99% !important;
+}
+:-webkit-scrollbar-thumb {
+  background: #507299;
+  width: 10px;
+}
+img.registerImg {
+  width: 100%;
+  height: 100vh;
+  object-fit: fill;
+}
+img.logsImg {
+  width: 50%;
+  height: 30vh;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  object-fit: contain !important;
+}
+
+.divtwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.join {
+  font-size: 26px;
+  font-family: Exo, sans-serif;
+  color: #ffc000;
+  text-align: center;
+  font-weight: bold;
+}
+.fastEasy {
+  font-size: 20px;
+  font-family: Exo, sans-serif;
+  color: #0096ff;
+  text-align: center;
+  font-weight: bold;
+}
+.text-field {
+  height: 50px;
+  margin-bottom: 0px;
+  border: 0px none #000;
+  background-color: #060913;
+  color: #0096ff;
+  flex: 1;
+  outline: none;
+}
+.span-block {
+  background: #1b2b55;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fa-user-o {
+  color: white;
+}
+.w-input {
+  display: block;
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+}
+.input-group {
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 155px;
+}
+.loginButton {
+  margin-top: 15px;
+  display: inline-block;
+  padding: 9px 15px;
+  background-color: #3898ec;
+  color: white;
+  border: 0;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 0;
+  width: 100%;
+  height: 50px;
+  background-image: linear-gradient(100deg, #0096ff, #3254ff);
+  font-family: Exo, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+.input-group2 {
+  margin-top: 10px;
+}
+.passwordForgot {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #4b526c;
+  font-weight: 500;
+  text-align: center;
+}
+.passwordForgot:hover {
+  color: #3898ec;
+}
+.register {
+  margin-top: 15px;
+}
+img.coinbaseLogo {
+  width: 140px;
+  height: 50px;
+  margin-left: 50px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.header-content {
+  position: fixed;
+  top: 0px;
+  height: 60px;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 1px -1px rgba(0, 0, 0, 0.2),
+    0 1px 2px 0 rgba(0, 0, 0, 0.12);
+}
+.imgHam {
+  position: relative;
+}
+.hambergerbars {
+  margin-left: 55px;
+  height: 14px;
+  color: #3f6ad8;
+  width: 24px;
+  font-size: 26px;
+  cursor: pointer;
+  position: absolute;
+  top: 20%;
+}
+.addbal {
+  margin-right: 40px;
+  position: relative;
+  margin-top: 5px;
+}
+.badge-dangere {
+  color: #fff;
+  background: #d92550;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  min-width: 19px;
+  margin-right: 10px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 100%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+.fa-arrow-down {
+  cursor: pointer;
+}
+img.usericonImg {
+  cursor: pointer;
+}
+.menu ul {
+  list-style-type: none;
+}
+.card-body li {
+  list-style-type: none;
+}
+.accordion {
+  margin-left: 30px;
+  margin-top: 100px !important;
+  height: 100vh;
+  position: sticky;
+  top: 90px;
+  /* background: #fff; */
+
+  border: none !important;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 1px -1px rgba(0, 0, 0, 0.2),
+    0 1px 2px 0 rgba(0, 0, 0, 0.12);
+}
+.card {
+  background: white !important;
+  border: none !important;
+}
+.card-header {
+  background-color: #fff !important;
+}
+
+.card-header h2 button {
+  color: #000000;
+  text-decoration: none;
+  width: 100%;
+  text-align: left;
+  background: #fff;
+  font-size: 14px;
+}
+
+h2.homeLogout {
+  color: #000000;
+  text-decoration: none;
+  width: 100%;
+  text-align: left;
+  background: #fff;
+  font-size: 14px;
+  margin-left: 28px;
+  padding-top: 15px;
+  cursor: pointer;
+}
+.fa {
+  margin-right: 5px;
+}
+.card-header h2 button:hover {
+  text-decoration: none;
+  color: #000000;
+  outline: none;
+  font-weight: bold !important;
+  background: #e0f3ff;
+}
+.card-body h2 button:active {
+  font-weight: bold !important;
+  color: red !important;
+}
+
+.card-body li {
+  color: #6c757d;
+  font: 14px;
+  padding: 5px 24px 5px 14px;
+  margin: 6px 0px;
+}
+.card-body li:hover {
+  color: #3f6ad8;
+  background: #e0f3ff;
+}
+
+.thirdSection {
+  margin-top: 60px !important;
+  /* width: 1000px !important; */
+  background: #f5f5f5;
+  overflow-x: scroll;
+}
+.divChild {
+  width: 100%;
+}
+div.c1 {
+  background: #16aaff;
+  padding: 20px;
+  color: #ffffff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  font-size: 14.8px;
+  background-clip: border-box;
+  border: 1px solid rgba(26, 54, 126, 0.125);
+  border-radius: 0.25rem;
+  margin: 30px 30px 12px;
+}
+.c1 h5 {
+  display: block;
+  font-size: 14px;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.c2 {
+  background: #3f6ad8;
+  padding: 20px;
+  font-size: 14.8px;
+  color: #ffffff;
+  border: 1px solid rgba(26, 54, 126, 0.125);
+  border-radius: 0.25rem;
+  margin: 30px 30px 12px;
+  background-clip: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+}
+.saveloginDetails {
+  font-weight: 500;
+  color: #212529;
+  background-color: #f7b924;
+  border-color: #f7b924;
+  vertical-align: bottom;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  text-align: center;
+  display: inline-block;
+  padding: 0.375rem 0.75rem;
+  width: 50%;
+}
+.greetings {
+  font-size: 12.8px;
+  text-transform: uppercase;
+  margin: 20px 0px 8px;
+  padding: 2px 0px 0px;
+  font-weight: bold;
+  color: #000000;
+}
+.c3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(26, 54, 126, 0.125);
+  border-radius: 0.25rem;
+  color: #000000;
+  padding: 10px 10px 10px 100px;
+  font-size: 14.8px;
+  margin: 30px 30px 12px 30px;
+}
+.dearUsers {
+  font-size: 16px;
+  color: #0000;
+}
+.c3 h3 {
+  position: relative;
+}
+.greetings::before {
+  content: "" !important;
+  height: 15px !important;
+  width: 15px !important;
+  display: block;
+  background: #ffffff !important;
+  border-radius: 50%;
+  padding: 5px;
+  position: absolute;
+  left: -5%;
+  top: 5%;
+  border: 5px solid red;
+}
+.third2one {
+  background: #d92550;
+  color: #ffffff;
+  margin: 0px 0px 8px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  margin-top: 30px;
+  background-clip: border-box;
+  border: 1px solid rgba(26, 54, 126, 0.125);
+  border-radius: 0.25rem;
+  padding: 20px;
+}
+.third2one h5 {
+  font-size: 19px;
+}
+.telegramImage {
+  object-fit: contain;
+  height: "90px" !important;
+  width: "50%";
+}
+.btext {
+  color: #507299;
+  font-size: 24px;
+}
+.third2two {
+  background: #fff;
+}
+.latestTools {
+  color: #000000;
+  background: #ffffff;
+  padding: 20px;
+  margin: 25px 0px 0px;
+}
+.Added_items {
+  height: 500px;
+  margin-left: 15px;
+  overflow: scroll;
+}
+.Added_items::-webkit-scrollbar-thumb {
+  background: #507299;
+  width: 10px;
+}
+.Added_items ul {
+  list-style-type: none;
+}
+.Added_items ul li {
+  padding: 12px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  font-size: 14px;
+  position: relative;
+  display: block;
+}
+::-webkit-scrollbar {
+  color: red;
+}
+.profilehideShow {
+  position: absolute;
+  font-size: 14px;
+
+  width: 350px;
+
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  position: absolute;
+  top: 100%;
+  left: -40%;
+  z-index: 1000;
+}
+.welcomeLem {
+  background: #16aaff;
+  font-size: 14px;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin-top: 0;
+  font-weight: bold;
+  padding: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+.submitTicket {
+  font-size: 14px;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin-top: 0;
+  font-weight: bold;
+  padding: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+.submitTicket li {
+  color: #3ac47d;
+  list-style: none;
+  text-align: center;
+  width: 100%;
+  font-size: 12.8px;
+  padding: 8px 12px;
+}
+.submitTicket li:hover {
+  background: #3ac47d !important;
+  color: #fff !important;
+}
+.submitLinkHover:hover {
+  background: #3ac47d !important;
+  color: #fff !important;
+}
+.logoutBtn {
+  font-size: 14px;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin-top: 0;
+  font-weight: bold;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logoutBtn button {
+  padding: 4px 16px;
+  color: #ffffff;
+  background: #3f6ad8;
+  border-color: #3f6ad8;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+}
+.logoutBtn button:hover {
+  color: #fff;
+  background-color: #2955c8;
+}
+.with_tables {
+  color: #fff;
+  padding: 50px;
+}
+.inner_div_table {
+  /* width: 90%; */
+  margin-left: 40px;
+  background: #ffffff;
+  padding: 20px;
+}
+
+.alert-success .alert-danger {
+  width: 50% !important;
+}
+.udpated {
+  color: #1e6641;
+  background-color: #d8f3e5;
+  border-color: #c8eedb;
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  font-size: 14px;
+}
+.goodForCC {
+  color: #71132a;
+  background-color: #f7d3dc;
+  border-color: #f4c2ce;
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.table th {
+  color: #6c757d;
+  font-size: 14px;
+  background-color: #f8f9fa;
+  padding: 8.8px;
+}
+td {
+  border: 1px solid #e9ecef;
+  box-sizing: border-box;
+
+  color: #000;
+
+  font-size: 14px;
+  vertical-align: middle !important;
+  box-sizing: border-box;
+  padding: 12px !important;
+  text-align: center;
+}
+th {
+  vertical-align: center !important;
+  text-align: center !important;
+}
+button.tablePurchased {
+  background: #16aaff;
+  padding: 4px 15px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button.tablePurchased:hover {
+  color: #fff;
+  background-color: #0098ef;
+  border-color: #0090e2;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: blinker;
+  font-size: 14px;
+}
+@keyframes blinker {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.OpenNewTicket {
+  color: red;
+  text-align: center;
+  background: #3f6ad8;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.25rem;
+  padding: 1.1rem;
+}
+.subjectLabel {
+  margin-top: 55px !important;
+  color: #000 !important;
+}
+.sendTicket {
+  margin-top: 15px;
+  color: #fff;
+  padding: 1px 6px;
+}
+.addfundsPage {
+  color: red;
+}
+.out1 {
+  height: 150px;
+  background: #3f6ad8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+  flex-direction: column;
+  font: 20px;
+}
+.avatorimgDiv {
+  height: 70px !important;
+  background: #fff;
+  border-radius: 50%;
+  width: 50px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avatorimgDiv img {
+  height: 40px;
+  height: 40px;
+  object-fit: contain;
+  width: 50px;
+  border-radius: 50%;
+}
+.bitcoinAutomaticPayment {
+  font-size: 20px;
+  color: #fff;
+}
+.bitcoinpay {
+  font-size: 16px;
+  color: #fff;
+}
+.out2 {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.calc {
+  font-size: 14px;
+  color: #444054;
+  margin: 2px 0px 0px;
+}
+.btcrate {
+  color: #000000;
+  font-size: 14px;
+  font-weight: bold;
+  opacity: 0.7;
+}
+.asteric {
+  color: #d92550;
+  font-size: 14px;
+}
+
+.pnma {
+  color: #343a40;
+  font-size: 14px;
+}
+.threethings {
+  display: flex;
+  flex-direction: column;
+}
+.bitcoininput {
+  border-radius: 5px;
+}
+input.readonlynumber {
+  width: 100%;
+}
+.bitcoininput:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #a9bcee;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.confirmation {
+  background: #fff;
+  padding-bottom: 20px;
+}
+.fiatselect {
+  width: 70px !important;
+}
+.automaticPayment {
+  background: #fff;
+}
+.offers {
+  margin-top: 50px;
+  color: #000000;
+  opacity: 0.8;
+  background: #fff;
+  font-weight: bold;
+  padding: 15px !important;
+  position: relative;
+}
+.addfundspage {
+  background: #f5f5f5;
+}
+.offers11 {
+  color: #f7b924;
+  font-size: 28px;
+  position: absolute;
+  left: 80%;
+  bottom: 10%;
+}
+.require {
+  background: #3f6ad8;
+  color: white;
+  padding: 15px 10px;
+  font-size: 1.5rem;
+}
+.qrcode {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.statement {
+  font-size: 32px;
+  color: #000000;
+  margin: 0px 0px 8px;
+}
+input.inputva {
+  width: 90% !important;
+}
+.to_this_adddress {
+  font-size: 14px;
+  color: #000000;
+  margin: 0px 0px 8px;
+}
+.address {
+  position: relative;
+}
+.clipboard-trigger {
+  position: absolute !important;
+  right: 2%;
+  top: 15%;
+}
+
+.aftersending {
+  color: #000000;
+  opacity: 0.7;
+}
+.closePage {
+  margin: 20px 10px 8px;
+  font-size: 20px;
+  opacity: 0.7;
+  color: #000000;
+  padding-left: 30px;
+}
+img.waringimgicon {
+  margin-right: 5px;
+}
+.imgLoadinggif {
+  margin: 30px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.paymentnotcomplete {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.dangerofnotpayment {
+  width: 90% !important;
+}
+.pushKidogo {
+  margin-left: 15px;
+}
+
+.readonlyinput {
+  width: 270px !important;
+  height: 50px;
+  font-size: 18px;
+}
+.errorsg {
+  color: red;
+  background: white;
+}
+.input-group {
+  width: 90% !important;
+  margin-left: 10%;
+}
+.btcdropdown {
+  margin-top: -15px;
+  font-size: 30px;
+}
+.login_register_link {
+  color: #3898ec;
+  text-decoration: underline;
+}
+.login_register_link:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+.hasanaccount {
+  color: #ffc000;
+}
+
+@media only screen and (min-width: 1039px) {
+  .smallerscreens {
+    display: none;
+  }
+  .accordion {
+    margin-left: 30px;
+    margin-top: 100px !important;
+    height: 100vh;
+    position: sticky;
+    top: 90px;
+    border: none !important;
+    transition: all 0.2s ease;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+      0 1px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+  }
+}
+@media only screen and (max-width: 1039px) {
+  .third2one {
+    width: 100% !important;
+    margin-left: 5% !important;
+  }
+  .third2two {
+    width: 100% !important;
+    margin-left: 5% !important;
+  }
+
+  .accordion {
+    position: fixed;
+    top: -7%;
+    right: 70%;
+    width: 30% !important;
+    height: 100% !important;
+    background: #fff;
+
+    z-index: 100;
+    transition: all 0.5s ease;
+  }
+  .hideaccordion {
+    position: fixed;
+    top: 10%;
+    right: 90%;
+    transition: all 0.5s ease;
+  }
+  h2.homeLogout {
+    color: #000000;
+    text-decoration: none;
+    width: 100%;
+    text-align: left;
+    background: #fff;
+    font-size: 14px;
+    margin-left: 10px;
+    padding-top: 15px;
+    padding-left: 20px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .smallerscreensMn {
+    display: none;
+  }
+  .addBalsmc {
+    display: none;
+  }
+  .profilehideShowsm {
+    display: none;
+  }
+  .profilehideShowsc {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .profilehideShowsc {
+    pointer-events: none;
+    position: absolute;
+    font-size: 14px;
+    transition: opacity 0.5 ease;
+    width: 350px;
+
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    position: absolute;
+    top: 100%;
+    left: -40%;
+    z-index: 1000;
+  }
+  .profilehideShowsc {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+  }
+  .addBalsmc {
+    background: red;
+    left: 0px;
+    top: 10%;
+    width: 65%;
+    background: #ffff;
+    padding-left: 25%;
+    position: absolute;
+    transition: all 0.2s;
+    background: #fff;
+    border-radius: 50px;
+    transition: opacity 0.5s ease;
+    z-index: 500;
+    box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03),
+      0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03),
+      0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05),
+      0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
+  }
+  .smallerscreensMn {
+    margin-top: 10px;
+    width: 20px;
+    height: 35px;
+    background: #3f6ad8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .addbalbtnsmc {
+    color: #fff;
+    background: #d92550;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    min-width: 19px;
+    margin-left: 50% !important;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    margin-left: 10px;
+    cursor: pointer !important;
+  }
+  .usrsmalsc {
+    cursor: pointer;
+  }
+  .mcchild {
+    height: 5px;
+    width: 5px;
+    margin: 2px 0px;
+    border-radius: 50%;
+    background: #fff;
+  }
+  .badge-dangere {
+    display: none !important;
+  }
+  .usericonImg {
+    display: none !important;
+  }
+  .arowDown {
+    display: none;
+  }
+  img.coinbaseLogo {
+    width: 140px;
+    height: 50px;
+
+    margin-top: 5px;
+    cursor: pointer;
+    position: absolute;
+    left: 100px !important;
+  }
+  .accordion {
+    position: fixed;
+    top: -7%;
+    right: 50%;
+    width: 50% !important;
+    height: 100% !important;
+    background: #fff;
+
+    z-index: 100;
+    transition: all 0.5s ease;
+  }
+  .third2one {
+    width: 150% !important;
+    margin-left: 45% !important;
+  }
+  .third2two {
+    width: 150% !important;
+    margin-left: 45% !important;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .purchaseTools {
+    height: 100vh;
+  }
+  .divOne {
+    display: none;
+  }
+  .divtwo {
+    height: 100vh;
+  }
+
+  .input-group {
+    width: 90% !important;
+    margin-left: 35%;
+  }
+  img.logsImg {
+    width: 50%;
+    height: 30vh;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    object-fit: contain !important;
+  }
+
+  img.registerImg {
+    width: 100%;
+    height: 90vh;
+    object-fit: contain;
+  }
+  .accordion {
+    position: fixed;
+    top: -7%;
+    right: 38%;
+    width: 70% !important;
+    height: 100% !important;
+    background: #fff;
+    z-index: 100;
+    transition: all 0.5s ease;
+    z-index: 100000;
+  }
+  div.c1 {
+    background: #16aaff;
+    padding: 20px;
+    color: #ffffff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    font-size: 14px;
+    background-clip: border-box;
+    border: 1px solid rgba(26, 54, 126, 0.125);
+    border-radius: 0.25rem;
+    margin: 30px 5px 12px;
+  }
+  .c2 {
+    background: #3f6ad8;
+    padding: 20px;
+    font-size: 14px;
+    color: #ffffff;
+    border: 1px solid rgba(26, 54, 126, 0.125);
+    border-radius: 0.25rem;
+    margin: 30px 5px 12px;
+    background-clip: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+  }
+  .c3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(26, 54, 126, 0.125);
+    border-radius: 0.25rem;
+    color: #000000;
+    padding: 10px 10px 10px 40px;
+    font-size: 14px;
+    margin: 30px 30px 5px 5px;
+  }
+  .third2one {
+    background: #d92550;
+    color: #ffffff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    margin-top: 10px;
+    background-clip: border-box;
+    border: 1px solid rgba(26, 54, 126, 0.125);
+    border-radius: 0.25rem;
+    padding: 20px;
+    margin-left: 15px !important;
+    font-size: 10px !important;
+    width: 400px !important;
+  }
+  .third2two {
+    width: 400px !important;
+    margin-left: 0px !important;
+  }
+  .third2one {
+    width: 100% !important;
+    margin-left: 5% !important;
+  }
+  .third2two {
+    width: 100% !important;
+    margin-left: 5% !important;
+  }
+  .inner_div_table {
+    margin-left: 0px;
+    background: #ffffff;
+    overflow-x: scroll;
+    padding: 20px;
+  }
+  .table {
+    overflow-x: scroll;
+  }
+  .table th {
+    color: #6c757d;
+    font-size: 12px;
+    background-color: #f8f9fa;
+    padding: 8.8px;
+  }
+  td {
+    border: 1px solid #e9ecef;
+    box-sizing: border-box;
+
+    color: #000;
+
+    font-size: 12px;
+    vertical-align: middle !important;
+    box-sizing: border-box;
+    padding: 10px !important;
+    text-align: center;
+  }
+  th {
+    vertical-align: center !important;
+    text-align: center !important;
+  }
+  button.tablePurchased {
+    background: #16aaff;
+    padding: 4px 15px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .submitTicket li {
+    pointer-events: all;
+  }
+  .logoutBtn {
+    pointer-events: all;
+  }
+}
+@media only screen and (max-width: 360px) {
+  img.coinbaseLogo {
+    width: 140px;
+    height: 50px;
+    margin-top: 5px;
+    cursor: pointer;
+    position: absolute;
+    left: 50px !important;
+  }
+  .addbalbtnsmc {
+    color: #fff;
+    background: #d92550;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    min-width: 19px;
+    margin-left: 20% !important;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+
+    cursor: pointer !important;
+  }
+}
