@@ -19,6 +19,12 @@ export default function Coinbase() {
     await signOut(auth);
     navigate("/");
   };
+  window.onmouseup = function (event) {
+    //console.log(event.target);
+    if (event.target !== document.querySelector(".addbal")) {
+      setshowDisplay(false);
+    }
+  };
   return (
     <div>
       <div
@@ -186,7 +192,11 @@ export default function Coinbase() {
                 : "accordion accordion_menu col-md-2"
             }
             id="accordionExample"
-            style={{ width: accordionWidth ? "18%" : "0", marginTop: "100px" }}
+            style={{
+              width: accordionWidth ? "18%" : "0px",
+              marginTop: "60px",
+              background: "#44adf2",
+            }}
           >
             <Link to="/coinbase" style={{ textDecoration: "none" }}>
               {" "}

@@ -81,7 +81,10 @@ export default function Visacards() {
               ></i>
               <div
                 className="profilehideShow"
-                style={{ opacity: showDisplay ? "1" : "0" }}
+                style={{
+                  opacity: showDisplay ? "1" : "0",
+                  display: showDisplay ? "block" : "none",
+                }}
               >
                 <div className="welcomeLem">Welcome : Lem</div>
                 <div className="submitTicket">
@@ -186,7 +189,12 @@ export default function Visacards() {
                 : "accordion accordion_menu col-md-2"
             }
             id="accordionExample"
-            style={{ width: accordionWidth ? "18%" : "0", marginTop: "100px" }}
+            style={{
+              width: accordionWidth ? "18%" : "0",
+              marginTop: "60px",
+
+              background: "#44adf2",
+            }}
           >
             <Link to="/coinbase" style={{ textDecoration: "none" }}>
               {" "}
@@ -566,7 +574,7 @@ export default function Visacards() {
                         Exp,CVV, Name On the Card Address City State,Zip USA
                       </td>
                       <td>5217 30XX XXXX XXXX</td>
-                      <td>60$</td>
+                      <td>120$</td>
                       <td>
                         <label className="badge badge-success blink_me">
                           Live
@@ -592,7 +600,7 @@ export default function Visacards() {
                         Exp,CVV, Name On the Card Address City State,Zip USA
                       </td>
                       <td>5459 58XX XXXX XXXX</td>
-                      <td>60$</td>
+                      <td>100$</td>
                       <td>
                         <label className="badge badge-success blink_me">
                           Live
@@ -618,7 +626,7 @@ export default function Visacards() {
                         Exp,CVV, Name On the Card Address City State,Zip USA
                       </td>
                       <td>5465 05XX XXXX XXXX</td>
-                      <td>60$</td>
+                      <td>190$</td>
                       <td>
                         <label className="badge badge-success blink_me">
                           Live
@@ -645,7 +653,7 @@ export default function Visacards() {
                         Exp,CVV, Name On the Card Address City State,Zip USA
                       </td>
                       <td>5580 98XX XXXX XXXX</td>
-                      <td>60$</td>
+                      <td>150$</td>
                       <td>
                         <label className="badge badge-success blink_me">
                           Live
@@ -671,7 +679,7 @@ export default function Visacards() {
                         Exp,CVV, Name On the Card Address City State,Zip USA
                       </td>
                       <td>5217 30XX XXXX XXXX</td>
-                      <td>60$</td>
+                      <td>220$</td>
                       <td>
                         <label className="badge badge-success blink_me">
                           Live
@@ -697,7 +705,7 @@ export default function Visacards() {
                         Exp,CVV, Name On the Card Address City State,Zip USA
                       </td>
                       <td>5459 58XX XXXX XXXX</td>
-                      <td>60$</td>
+                      <td>170$</td>
                       <td>
                         <label className="badge badge-success blink_me">
                           Live
@@ -723,7 +731,7 @@ export default function Visacards() {
                         Exp,CVV, Name On the Card Address City State,Zip USA
                       </td>
                       <td>5465 05XX XXXX XXXX</td>
-                      <td>60$</td>
+                      <td>180$</td>
                       <td>
                         <label className="badge badge-success blink_me">
                           Live
@@ -749,7 +757,7 @@ export default function Visacards() {
                         Exp,CVV, Name On the Card Address City State,Zip USA
                       </td>
                       <td>5580 98XX XXXX XXXX</td>
-                      <td>60$</td>
+                      <td>155$</td>
                       <td>
                         <label className="badge badge-success blink_me">
                           Live

@@ -82,7 +82,10 @@ export default function Amexcards() {
               ></i>
               <div
                 className="profilehideShow"
-                style={{ opacity: showDisplay ? "1" : "0" }}
+                style={{
+                  opacity: showDisplay ? "1" : "0",
+                  display: showDisplay ? "block" : "none",
+                }}
               >
                 <div className="welcomeLem">Welcome : Lem</div>
                 <div className="submitTicket">
@@ -187,7 +190,11 @@ export default function Amexcards() {
                 : "accordion accordion_menu col-md-2"
             }
             id="accordionExample"
-            style={{ width: accordionWidth ? "18%" : "0", marginTop: "100px" }}
+            style={{
+              width: accordionWidth ? "18%" : "0",
+              marginTop: "60px",
+              background: "#44adf2",
+            }}
           >
             <Link to="/coinbase" style={{ textDecoration: "none" }}>
               {" "}
@@ -566,7 +573,7 @@ export default function Amexcards() {
                         Exp,CVV, Name On the Card Address City State,Zip USA
                       </td>
                       <td>37826 6XXXX XXXXX</td>
-                      <td>50$</td>
+                      <td>140$</td>
                       <td>
                         <label className="badge badge-success blink_me">
                           Live
@@ -592,7 +599,7 @@ export default function Amexcards() {
                         Exp,CVV, Name On the Card Address City State,Zip USA
                       </td>
                       <td>37826 6XXXX XXXXX</td>
-                      <td>50$</td>
+                      <td>100$</td>
                       <td>
                         <label className="badge badge-success blink_me">
                           Live
@@ -618,7 +625,7 @@ export default function Amexcards() {
                         Exp,CVV, Name On the Card Address City State,Zip USA
                       </td>
                       <td>37471 6XXXX XXXXX</td>
-                      <td>50$</td>
+                      <td>190$</td>
                       <td>
                         <label className="badge badge-success blink_me">
                           Live
@@ -644,7 +651,7 @@ export default function Amexcards() {
                         Exp,CVV, Name On the Card Address City State,Zip USA
                       </td>
                       <td>37471 6XXXX XXXXX</td>
-                      <td>50$</td>
+                      <td>200$</td>
                       <td>
                         <label className="badge badge-success blink_me">
                           Live
@@ -670,7 +677,7 @@ export default function Amexcards() {
                         Exp,CVV, Name On the Card Address City State,Zip USA
                       </td>
                       <td>34114 2XXXX XXXXX</td>
-                      <td>50$</td>
+                      <td>140$</td>
                       <td>
                         <label className="badge badge-success blink_me">
                           Live
@@ -697,7 +704,7 @@ export default function Amexcards() {
                         Exp,CVV, Name On the Card Address City State,Zip USA
                       </td>
                       <td>34256 2XXXX XXXXX</td>
-                      <td>50$</td>
+                      <td>180$</td>
                       <td>
                         <label className="badge badge-success blink_me">
                           Live
@@ -723,7 +730,7 @@ export default function Amexcards() {
                         Exp,CVV, Name On the Card Address City State,Zip USA
                       </td>
                       <td>37026 6XXXX XXXXX</td>
-                      <td>50$</td>
+                      <td>170$</td>
                       <td>
                         <label className="badge badge-success blink_me">
                           Live
@@ -749,7 +756,7 @@ export default function Amexcards() {
                         Exp,CVV, Name On the Card Address City State,Zip USA
                       </td>
                       <td>37133 1XXXX XXXXX</td>
-                      <td>50$</td>
+                      <td>120$</td>
                       <td>
                         <label className="badge badge-success blink_me">
                           Live
@@ -775,7 +782,7 @@ export default function Amexcards() {
                         Exp,CVV, Name On the Card Address City State,Zip USA
                       </td>
                       <td>37134 0XXXX XXXXX</td>
-                      <td>50$</td>
+                      <td>130$</td>
                       <td>
                         <label className="badge badge-success blink_me">
                           Live
@@ -801,7 +808,7 @@ export default function Amexcards() {
                         Exp,CVV, Name On the Card Address City State,Zip USA
                       </td>
                       <td>37134 8XXXX XXXXX</td>
-                      <td>50$</td>
+                      <td>100$</td>
                       <td>
                         <label className="badge badge-success blink_me">
                           Live
@@ -827,7 +834,7 @@ export default function Amexcards() {
                         Exp,CVV, Name On the Card Address City State,Zip USA
                       </td>
                       <td>37138 0XXXX XXXXX</td>
-                      <td>50$</td>
+                      <td>110$</td>
                       <td>
                         <label className="badge badge-success blink_me">
                           Live
@@ -853,7 +860,7 @@ export default function Amexcards() {
                         Exp,CVV, Name On the Card Address City State,Zip USA
                       </td>
                       <td>37138 9XXXX XXXXX</td>
-                      <td>50$</td>
+                      <td>120$</td>
                       <td>
                         <label className="badge badge-success blink_me">
                           Live
@@ -879,7 +886,7 @@ export default function Amexcards() {
                         Exp,CVV, Name On the Card Address City State,Zip USA
                       </td>
                       <td>37140 3XXXX XXXXX</td>
-                      <td>50$</td>
+                      <td>130$</td>
                       <td>
                         <label className="badge badge-success blink_me">
                           Live
@@ -905,7 +912,7 @@ export default function Amexcards() {
                         Exp,CVV, Name On the Card Address City State,Zip USA
                       </td>
                       <td>37151 5XXXX XXXXX</td>
-                      <td>50$</td>
+                      <td>190$</td>
                       <td>
                         <label className="badge badge-success blink_me">
                           Live
@@ -931,7 +938,7 @@ export default function Amexcards() {
                         Exp,CVV, Name On the Card Address City State,Zip USA
                       </td>
                       <td>37152 5XXXX XXXXX</td>
-                      <td>50$</td>
+                      <td>200$</td>
                       <td>
                         <label className="badge badge-success blink_me">
                           Live

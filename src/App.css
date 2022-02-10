@@ -77,7 +77,7 @@ img.logsImg {
   -ms-flex-align: center;
   align-items: center;
   margin-left: 0px;
-  margin-right: 155px;
+  margin-right: 70px;
 }
 .loginButton {
   margin-top: 15px;
@@ -90,7 +90,7 @@ img.logsImg {
   text-decoration: none;
   cursor: pointer;
   border-radius: 0;
-  width: 100%;
+  width: 90%;
   height: 50px;
   background-image: linear-gradient(100deg, #0096ff, #3254ff);
   font-family: Exo, sans-serif;
@@ -186,23 +186,36 @@ img.usericonImg {
 }
 .accordion {
   margin-left: 30px;
-  margin-top: 100px !important;
+  margin-top: 60px !important;
   height: 100vh;
   position: sticky;
-  top: 90px;
-  /* background: #fff; */
-
+  top: 60px;
+  background: #44adf2 !important;
   border: none !important;
   transition: all 0.2s ease;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 1px -1px rgba(0, 0, 0, 0.2),
     0 1px 2px 0 rgba(0, 0, 0, 0.12);
 }
+.collapse {
+  transition: border 2s ease;
+  border-left: 3px solid #fff;
+}
 .card {
-  background: white !important;
+  background: #44adf2 !important;
   border: none !important;
 }
+.btn-link {
+  background: #44adf2 !important;
+  color: #000;
+}
+.btn-link:hover {
+  text-decoration: none !important;
+  background: #e0f3ff !important;
+  color: #000;
+  font-weight: 100;
+}
 .card-header {
-  background-color: #fff !important;
+  background-color: #44adf2 !important;
 }
 
 .card-header h2 button {
@@ -219,7 +232,7 @@ h2.homeLogout {
   text-decoration: none;
   width: 100%;
   text-align: left;
-  background: #fff;
+  background: #44adf2 !important;
   font-size: 14px;
   margin-left: 28px;
   padding-top: 15px;
@@ -827,15 +840,37 @@ img.waringimgicon {
     display: none;
   }
   .accordion {
-    margin-left: 30px;
-    margin-top: 100px !important;
+    margin-left: 10px;
+    margin-top: 60px !important;
     height: 100vh;
     position: sticky;
-    top: 90px;
+    top: 60px;
+    background: #44adf2 !important;
     border: none !important;
     transition: all 0.2s ease;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14),
       0 1px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+  }
+  .collapse {
+    transition: border 2s ease;
+    border-left: 3px solid #fff;
+  }
+  .card {
+    background: #44adf2 !important;
+    border: none !important;
+  }
+  .btn-link {
+    background: #44adf2 !important;
+    color: #000;
+  }
+  .btn-link:hover {
+    text-decoration: none !important;
+    background: #e0f3ff !important;
+    color: #000;
+    font-weight: 100;
+  }
+  .card-header {
+    background-color: #44adf2 !important;
   }
 }
 @media only screen and (max-width: 1039px) {
@@ -850,12 +885,11 @@ img.waringimgicon {
 
   .accordion {
     position: fixed;
-    top: -7%;
+    top: 0%;
     right: 70%;
     width: 30% !important;
     height: 100% !important;
-    background: #fff;
-
+    background: #44adf2 !important;
     z-index: 100;
     transition: all 0.5s ease;
   }
@@ -898,7 +932,6 @@ img.waringimgicon {
     font-size: 14px;
     transition: opacity 0.5 ease;
     width: 350px;
-
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, 0.15);
@@ -993,12 +1026,11 @@ img.waringimgicon {
   }
   .accordion {
     position: fixed;
-    top: -7%;
+    top: 0%;
     right: 50%;
     width: 50% !important;
     height: 100% !important;
-    background: #fff;
-
+    background: #44adf2 !important;
     z-index: 100;
     transition: all 0.5s ease;
   }
@@ -1024,7 +1056,7 @@ img.waringimgicon {
 
   .input-group {
     width: 90% !important;
-    margin-left: 35%;
+    margin-left: 25%;
   }
   img.logsImg {
     width: 50%;
@@ -1041,11 +1073,11 @@ img.waringimgicon {
   }
   .accordion {
     position: fixed;
-    top: -7%;
-    right: 38%;
+    top: 0%;
+    right: 30%;
     width: 70% !important;
     height: 100% !important;
-    background: #fff;
+    background: #44adf2 !important;
     z-index: 100;
     transition: all 0.5s ease;
     z-index: 100000;

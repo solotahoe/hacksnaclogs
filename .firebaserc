@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "hackersnack-a4e64"
-  }
+    "default": "hackersnacklogs",
+    "hackersnacklogs": "hackersnacklogs"
+  },
+  "targets": {}
 }

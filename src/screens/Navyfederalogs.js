@@ -81,7 +81,10 @@ export default function Usaalogs() {
               ></i>
               <div
                 className="profilehideShow"
-                style={{ opacity: showDisplay ? "1" : "0" }}
+                style={{
+                  opacity: showDisplay ? "1" : "0",
+                  display: showDisplay ? "block" : "none",
+                }}
               >
                 <div className="welcomeLem">Welcome : Lem</div>
                 <div className="submitTicket">
@@ -186,7 +189,11 @@ export default function Usaalogs() {
                 : "accordion accordion_menu col-md-2"
             }
             id="accordionExample"
-            style={{ width: accordionWidth ? "18%" : "0", marginTop: "100px" }}
+            style={{
+              width: accordionWidth ? "18%" : "0",
+              marginTop: "60px",
+              background: "#44adf2",
+            }}
           >
             <Link to="/coinbase" style={{ textDecoration: "none" }}>
               {" "}
@@ -572,10 +579,15 @@ export default function Usaalogs() {
                         </label>
                       </td>
                       <td>
-                        <button className="tablePurchased">
-                          <i class="fa fa-shopping-cart" aria-hidden="true"></i>{" "}
-                          Purchase
-                        </button>
+                        <Link to="/addfunds" style={{ textDecoration: "none" }}>
+                          <button className="tablePurchased">
+                            <i
+                              class="fa fa-shopping-cart"
+                              aria-hidden="true"
+                            ></i>{" "}
+                            Purchase
+                          </button>
+                        </Link>
                       </td>
                     </tr>
                     <tr>
@@ -594,10 +606,15 @@ export default function Usaalogs() {
                         </label>
                       </td>
                       <td>
-                        <button className="tablePurchased">
-                          <i class="fa fa-shopping-cart" aria-hidden="true"></i>{" "}
-                          Purchase
-                        </button>
+                        <Link to="/addfunds" style={{ textDecoration: "none" }}>
+                          <button className="tablePurchased">
+                            <i
+                              class="fa fa-shopping-cart"
+                              aria-hidden="true"
+                            ></i>{" "}
+                            Purchase
+                          </button>
+                        </Link>
                       </td>
                     </tr>
                     <tr>
@@ -616,10 +633,15 @@ export default function Usaalogs() {
                         </label>
                       </td>
                       <td>
-                        <button className="tablePurchased">
-                          <i class="fa fa-shopping-cart" aria-hidden="true"></i>{" "}
-                          Purchase
-                        </button>
+                        <Link to="/addfunds" style={{ textDecoration: "none" }}>
+                          <button className="tablePurchased">
+                            <i
+                              class="fa fa-shopping-cart"
+                              aria-hidden="true"
+                            ></i>{" "}
+                            Purchase
+                          </button>
+                        </Link>
                       </td>
                     </tr>
                     <tr>
@@ -638,10 +660,15 @@ export default function Usaalogs() {
                         </label>
                       </td>
                       <td>
-                        <button className="tablePurchased">
-                          <i class="fa fa-shopping-cart" aria-hidden="true"></i>{" "}
-                          Purchase
-                        </button>
+                        <Link to="/addfunds" style={{ textDecoration: "none" }}>
+                          <button className="tablePurchased">
+                            <i
+                              class="fa fa-shopping-cart"
+                              aria-hidden="true"
+                            ></i>{" "}
+                            Purchase
+                          </button>
+                        </Link>
                       </td>
                     </tr>
                     <tr>
@@ -660,10 +687,15 @@ export default function Usaalogs() {
                         </label>
                       </td>
                       <td>
-                        <button className="tablePurchased">
-                          <i class="fa fa-shopping-cart" aria-hidden="true"></i>{" "}
-                          Purchase
-                        </button>
+                        <Link to="/addfunds" style={{ textDecoration: "none" }}>
+                          <button className="tablePurchased">
+                            <i
+                              class="fa fa-shopping-cart"
+                              aria-hidden="true"
+                            ></i>{" "}
+                            Purchase
+                          </button>
+                        </Link>
                       </td>
                     </tr>
                     <tr>
@@ -682,10 +714,15 @@ export default function Usaalogs() {
                         </label>
                       </td>
                       <td>
-                        <button className="tablePurchased">
-                          <i class="fa fa-shopping-cart" aria-hidden="true"></i>{" "}
-                          Purchase
-                        </button>
+                        <Link to="/addfunds" style={{ textDecoration: "none" }}>
+                          <button className="tablePurchased">
+                            <i
+                              class="fa fa-shopping-cart"
+                              aria-hidden="true"
+                            ></i>{" "}
+                            Purchase
+                          </button>
+                        </Link>
                       </td>
                     </tr>
                     <tr>
@@ -704,10 +741,15 @@ export default function Usaalogs() {
                         </label>
                       </td>
                       <td>
-                        <button className="tablePurchased">
-                          <i class="fa fa-shopping-cart" aria-hidden="true"></i>{" "}
-                          Purchase
-                        </button>
+                        <Link to="/addfunds" style={{ textDecoration: "none" }}>
+                          <button className="tablePurchased">
+                            <i
+                              class="fa fa-shopping-cart"
+                              aria-hidden="true"
+                            ></i>{" "}
+                            Purchase
+                          </button>
+                        </Link>
                       </td>
                     </tr>
                     <tr>
@@ -726,10 +768,15 @@ export default function Usaalogs() {
                         </label>
                       </td>
                       <td>
-                        <button className="tablePurchased">
-                          <i class="fa fa-shopping-cart" aria-hidden="true"></i>{" "}
-                          Purchase
-                        </button>
+                        <Link to="/addfunds" style={{ textDecoration: "none" }}>
+                          <button className="tablePurchased">
+                            <i
+                              class="fa fa-shopping-cart"
+                              aria-hidden="true"
+                            ></i>{" "}
+                            Purchase
+                          </button>
+                        </Link>
                       </td>
                     </tr>
                   </tbody>

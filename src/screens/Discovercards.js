@@ -81,7 +81,10 @@ export default function Discovercards() {
               ></i>
               <div
                 className="profilehideShow"
-                style={{ opacity: showDisplay ? "1" : "0" }}
+                style={{
+                  opacity: showDisplay ? "1" : "0",
+                  display: showDisplay ? "block" : "none",
+                }}
               >
                 <div className="welcomeLem">Welcome : Lem</div>
                 <div className="submitTicket">
@@ -186,7 +189,11 @@ export default function Discovercards() {
                 : "accordion accordion_menu col-md-2"
             }
             id="accordionExample"
-            style={{ width: accordionWidth ? "18%" : "0", marginTop: "100px" }}
+            style={{
+              width: accordionWidth ? "18%" : "0",
+              marginTop: "60px",
+              background: "#44adf2",
+            }}
           >
             <Link to="/coinbase" style={{ textDecoration: "none" }}>
               {" "}
@@ -591,7 +598,7 @@ export default function Discovercards() {
                         Exp,CVV, Name On the Card Address City State,Zip USA
                       </td>
                       <td>6011 00XX XXXX XXXX</td>
-                      <td>60$</td>
+                      <td>100$</td>
                       <td>
                         <label className="badge badge-success blink_me">
                           Live
@@ -617,7 +624,7 @@ export default function Discovercards() {
                         Exp,CVV, Name On the Card Address City State,Zip USA
                       </td>
                       <td>6011 00XX XXXX XXXX</td>
-                      <td>60$</td>
+                      <td>140$</td>
                       <td>
                         <label className="badge badge-success blink_me">
                           Live
@@ -643,7 +650,7 @@ export default function Discovercards() {
                         Exp,CVV, Name On the Card Address City State,Zip USA
                       </td>
                       <td>6011 20XX XXXX XXXX</td>
-                      <td>60$</td>
+                      <td>170$</td>
                       <td>
                         <label className="badge badge-success blink_me">
                           Live
@@ -669,7 +676,7 @@ export default function Discovercards() {
                         Exp,CVV, Name On the Card Address City State,Zip USA
                       </td>
                       <td>6011 38XX XXXX XXXX</td>
-                      <td>60$</td>
+                      <td>220$</td>
                       <td>
                         <label className="badge badge-success blink_me">
                           Live
@@ -695,7 +702,7 @@ export default function Discovercards() {
                         Exp,CVV, Name On the Card Address City State,Zip USA
                       </td>
                       <td>6011 49XX XXXX XXXX</td>
-                      <td>60$</td>
+                      <td>190$</td>
                       <td>
                         <label className="badge badge-success blink_me">
                           Live
@@ -721,7 +728,7 @@ export default function Discovercards() {
                         Exp,CVV, Name On the Card Address City State,Zip USA
                       </td>
                       <td>6516 21XX XXXX XXXX</td>
-                      <td>60$</td>
+                      <td>100$</td>
                       <td>
                         <label className="badge badge-success blink_me">
                           Live
@@ -747,7 +754,7 @@ export default function Discovercards() {
                         Exp,CVV, Name On the Card Address City State,Zip USA
                       </td>
                       <td>6550 66XX XXXX XXXX</td>
-                      <td>60$</td>
+                      <td>140$</td>
                       <td>
                         <label className="badge badge-success blink_me">
                           Live
@@ -773,7 +780,7 @@ export default function Discovercards() {
                         Exp,CVV, Name On the Card Address City State,Zip USA
                       </td>
                       <td>6595 24XX XXXX XXXX</td>
-                      <td>60$</td>
+                      <td>170$</td>
                       <td>
                         <label className="badge badge-success blink_me">
                           Live
